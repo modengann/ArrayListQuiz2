@@ -5,7 +5,9 @@
  * 
  * Your task:
  * After the numbers have been collected, write code that will:
- *   1. Find and print the average of the numbers on values
+ *   1. Complete the method average
+*    2. The average method takes in an ArrayList of integers and returns the average 
+*     as a double
  * 
  */
 
@@ -28,10 +30,9 @@ public class App {
         System.out.println("");
         //Write your code below here
 
-        for(Integer num : values){
-            num *= 2;
-        }
+    }
 
-        System.out.println(values);
+    public static double average(ArrayList<Integer> nums){
+    
     }
 }
